@@ -1,0 +1,23 @@
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Local override files
+override.tf
+override.tf.json
+
+.aws/
+.env
+credentials
+
+# Other files
+.vscode/
